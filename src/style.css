@@ -1,0 +1,190 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 35%;
+}
+
+td, th
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #3f4e49;
+    color: white;
+}
+
+td.center
+{
+    text-align: center;
+}
+
+button
+{
+    background-color: #209799;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover
+{
+    background-color: #156465;
+}
+
+button.delete
+{
+    background-color: white; 
+    color: red; 
+    border: 2px solid red;
+}
+
+button.delete:hover
+{
+    background-color: red; 
+    color: white;
+    border: 2px solid red;
+}
+
+button.up
+{
+    background-color: white; 
+    color: #209799; 
+    border: 2px solid #209799;
+}
+
+button.up:hover
+{
+    background-color: #209799; 
+    color: white; 
+    border: 2px solid #209799;
+}
+
+span
+{
+    color: red;
+}
+
+.undisplay
+{
+    display: none;
+}
+
+.tooltip
+{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext
+{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after
+{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+  
+.tooltip:hover .tooltiptext
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.votoCol
+{
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.datina
+{
+    font-size: 6pt;
+}
+
+input[type=text], input[type=password], input[type=date], input[type=email], input[type=number], select
+{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div.sfondo
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+div.sfondoSx
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+}
+
+a
+{
+    margin: 5px;
+}
+
+a:link, a:visited
+{
+    background-color: #209799;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active
+{
+    background-color: #156465;
+}
